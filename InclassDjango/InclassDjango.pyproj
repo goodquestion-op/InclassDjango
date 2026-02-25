@@ -34,12 +34,24 @@
     <Compile Include="InclassDjango\settings.py" />
     <Compile Include="InclassDjango\urls.py" />
     <Compile Include="InclassDjango\wsgi.py" />
+    <Compile Include="shabadabado\admin.py" />
+    <Compile Include="shabadabado\apps.py" />
+    <Compile Include="shabadabado\migrations\__init__.py" />
+    <Compile Include="shabadabado\models.py" />
+    <Compile Include="shabadabado\tests.py" />
+    <Compile Include="shabadabado\views.py" />
+    <Compile Include="shabadabado\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="shabadabado\templates\shabadabado\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="InclassDjango\" />
+    <Folder Include="shabadabado\" />
+    <Folder Include="shabadabado\migrations\" />
+    <Folder Include="shabadabado\templates\" />
+    <Folder Include="shabadabado\templates\shabadabado\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

@@ -1,3 +1,6 @@
+from django.urls import include, re_path
+import shabadabado.views
+
 """
 InclassDjango URL Configuration
     further change?
@@ -23,4 +26,7 @@ Including another URLconf
 urlpatterns = [
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
+    re_path(r'^$',shabadabado.views.index, name='index'),
+    re_path(r'home$',shabadabado.views.index, name='home')
 ]
+ 
